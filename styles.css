@@ -1,0 +1,315 @@
+body{
+	margin:0;
+	font-size:24px;
+	
+}
+ul{
+	list-style: none;
+}
+
+.pic img{
+	width:300px;
+	border:20px solid pink;
+	border-radius:100%;
+	
+}
+
+.pic{
+	width:300px;
+	margin:0 auto;
+	padding-top:50px;
+	position:relative;
+}
+.dog{
+	width:100%;
+	height:auto;
+}
+
+
+/*a{
+	text-decoration: none;
+	color: purple;
+}
+
+.special{
+	font-weight: bold;
+	color: maroon;
+}
+*/
+
+.top-section{
+	background-image:url("wallpaper.jpg");
+	
+}
+
+/*.top-section{
+	background-color: tan
+}*/
+/*.heading{
+	font-weight:bold;
+	color:red;
+	font-size:60px;
+}*/
+/*Hola Familia.*/
+
+
+
+
+.headings{
+	margin: 0 auto;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+
+}
+
+.paragraphs{
+	margin:0 auto;
+	text-align: center;
+	color:white;
+	font-size:18px;
+	/*border:15px solid yellow;
+	width:200px;
+	display: inline-block;*/
+
+}
+
+/*.paragraphs{
+	width:300px;
+}
+*/
+.nav {
+	background-color: white;
+	height:50px;
+	position:fixed;
+	width:100%;
+}
+
+.nav ul{
+	text-align:right;
+	margin:0;
+	padding-right:20px;
+}
+.nav li {
+	display: inline-block;
+	padding:13px 50px 0 10px;
+	font-size: 18px;
+	right:0;
+}
+
+
+
+
+
+
+.pic img:hover {
+	border:5px solid white;
+}
+
+a:hover{
+	text-decoration: 
+}
+
+
+
+.about-me{
+	background-color: pink;
+	text-align:center;
+	width:100%;
+}
+
+
+.about-img,.about-paragraph{
+	padding-top: 50px;
+}
+
+
+.about-title{
+	padding-top: 50px;
+}
+
+.about-img{
+	width:50%;
+	display:inline-block;
+}
+
+
+
+.about-image img{
+	width: 200px;
+}
+
+
+
+.about-paragragh{
+	width: 50%;
+	display:inline-block;
+	vertical-align: top;
+	font-size: 20px;
+	text-align:center;
+	padding-bottom: 50px;
+}
+
+
+.about-paragraph p{
+	width:500px;
+	margin:0 auto;
+
+}
+
+
+.my-work{
+	text-align:center;
+	width:100%;
+	background-color:rgba(93,20,160,.5);
+}
+
+
+.my-work-title{
+	padding-top: 50px;
+}
+
+.radical,.wireframe,.willowtree{
+	display: inline-block;
+	width:33%;
+	margin:0 auto;
+	/*height:300px;*/
+	padding:50px 0;
+	vertical-align: top;
+}
+
+
+.work-body{
+	padding:20px 30px 0 30px;
+	font-size: 20px;
+
+}
+
+/*.work-title{
+	height:150px;
+}*/
+
+.work-title img{
+	width:200px;
+	vertical-align: center;
+}
+
+.wt-padding img{
+	padding-top: 30px;
+}
+
+
+
+.contact-me{
+	background-color: turquoise;
+}
+
+
+.contact-title{
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+.phone{
+	width:500px;
+	margin:0 auto;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+
+.phone p{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 30px;
+}
+.phone img{
+	width:50px;
+	height:50px;
+	padding-left: 100px;
+}
+
+
+
+.outer{
+	background-color:#0c3d8c;
+	width:300px;
+	height:200px;
+	position:relative;
+	
+}
+.inner{
+	background-color: rgba(12,61,225,0.8);
+	width:200px;
+	height:100px;
+	position:absolute;
+	top:-20px;
+	right:-20px;
+}
+
+@media only screen and (max-width:900px){
+	.radical,.wirefame,.willowtree{
+		width:100%;
+		display:block;
+	}
+	.about-img img{
+		width:300px;
+	}
+
+}
+
+
+
+/*.background{
+	width:400px;
+	height:300px;
+	background-color:green;
+	position:relative;
+}
+
+.headline{
+	width:100px;
+	height:100px;
+	background-color:rgba(0,47,108,.5);
+	position:absolute;
+	bottom:0
+}
+*/
+
+
+
+
+
+
+
+
+
+/*.running{
+	background:url("IMG_1516.JPG");
+	background-size:cover;
+}*/
+
+
+
+/*.w-padding img{
+	padding-top:30px;
+
+}*/
+
+
+
+/* Block:
+take up full width of the page
+widths and heights can change
+<div> + <p>
+
+Inline block:;
+width, heights are ok
+can be in the same line
+
+inline:
+can be in the same line
+will not listen to widths/heights
+<a>
+*/
